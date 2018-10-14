@@ -1,0 +1,766 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+.home {
+    height: 100%;
+    width: 100%;
+    background-color: #bb81f4;
+}
+
+.homedata {
+    position: absolute;
+    margin: auto;
+    width: 650px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.home .homedata h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.home .homedata p {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    padding: 5px;
+}
+
+.sukemdisc h1 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+
+
+}
+
+.sukemdisc p {
+    color: dimgrey;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+
+.fixedarrow {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.home2 {
+    width: 100%;
+    height: 160%;
+
+}
+
+.home2 .aboutus {
+    height: 160%;
+    background-color: deepskyblue;
+    width: 33%;
+    float: left;
+
+
+}
+
+.home2 .aboutus h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70%;
+
+}
+
+
+.sukemtechlab {
+    width: 67%;
+    height: 160%;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.sukemtop {
+    width: 50px;
+    height: 50px;
+    background-color: fuchsia;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.sukemheader {}
+
+.home2 .sukemintro h1 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.home2 .sukemintro p {
+    font-size: 25px;
+    color: dimgrey;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sukemdisc {
+    height: 320px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.sukemlogo {
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.home .smalllogo {
+    width: 70px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+
+.home .button {
+    width: 50px;
+    height: 50px;
+    background-color: indianred;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.sukemgrid {
+    width: 798px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 130px;
+
+}
+
+.sukemgrid .fgrid {
+    width: 266px;
+    height: 300px;
+    float: left;
+}
+
+.sukemgrid .sgrid {
+    width: 266px;
+    height: 300px;
+    float: left;
+}
+
+.sukemgrid .tgrid {
+    width: 266px;
+    height: 300px;
+    float: left;
+}
+
+.sukemgrid h1 {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding: 2px;
+}
+
+.sukemgrid p {
+    color: dimgray;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.sukemgrid .fgrid .flogo {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: darkviolet;
+}
+
+.sukemgrid .sgrid .slogo {
+    width: 70px;
+    height: 70px;
+    background-color: darkviolet;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sukemgrid .tgrid .tlogo {
+    width: 70px;
+    height: 70px;
+    background-color: darkviolet;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.sukemwatch {
+    height: 400px;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.sukemwatch .watch {
+    height: 250px;
+    width: 250px;
+    background-color: cadetblue;
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+}
+
+.sukemwatch .watchdes {
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.sukemwatch .watchdes h1 {
+    color: black;
+    text-align: center;
+}
+
+.sukemwatch .watchdes p {
+    color: dimgrey;
+    text-align: center;
+    font-size: 20px;
+}
+
+.home3 {
+    height: 170%;
+    width: 100%;
+    float: right;
+}
+
+.home3 .processdes {
+    height: 170%;
+    width: 67%;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.home3 .process {
+    height: 170%;
+    width: 33%;
+    background-color: #ab7c9d;
+    display: inline-block;
+}
+
+.home3 .process h1 {
+    text-align: center;
+    color: white;
+    margin-top: 70%;
+    font-size: 40px;
+}
+
+
+.home3 .processlogo {
+    height: 70px;
+    width: 70px;
+    background-color: darkcyan;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.home3 .processintro {
+    height: 200px;
+    width: 800px;
+    margin-left: 60px;
+}
+
+.home3 .processintro h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    color: black;
+}
+
+.home3 .processintro p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 23px;
+    color: dimgrey;
+}
+
+.home3 .process1 {
+    width: 800px;
+    height: 500px;
+    margin-left: 60px;
+}
+
+.home3 .process1 .pic1 {
+    width: 400px;
+    height: 500px;
+    background-color: cadetblue;
+    float: left;
+
+}
+
+.home3 .process1 .para1 {
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+}
+
+.home3 .process1 .para1 h1 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.home3 .process1 .para1 p {
+    text-align: center;
+    color: dimgrey;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.home3 .process2 {
+    width: 800px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+.home3 .process2 .para2 {
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+.home3 .process2 .pic2 {
+    width: 400px;
+    height: 500px;
+    background-color: cadetblue;
+    display: inline-block;
+}
+
+.home3 .process2 .para2 h1 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.home3 .process2 .para2 p {
+    text-align: center;
+    color: dimgrey;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.home4 {
+    width: 100%;
+    height: 150%;
+    float: right;
+    margin-top: 700px;
+
+}
+
+.home4 .service {
+    height: 150%;
+    width: 33%;
+    background-color: darkorange;
+    float: left;
+}
+
+.home4 .servicedes {
+    width: 67%;
+    height: 150%;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.home4 .service h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70%;
+
+}
+
+.home4 .servicedes .servicelogo {
+    height: 50px;
+    width: 50px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.home4 .servicedes .serviceheader h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.home4 .servicedes .serviceheader p {
+    text-align: center;
+    font-size: 23px;
+    color: dimgrey;
+}
+
+.home4 .serviceheader {
+    width: 650px;
+    margin: auto;
+}
+
+.home4 .servicedes .servicegrid1 {
+
+    height: 400px;
+    width: 660px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home4 .servicedes .servicegrid1 .container1 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    float: left;
+}
+
+.home4 .servicedes .servicegrid1 .container2 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.home4 .servicedes .servicegrid1 .container3 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.home4 .servicedes .servicegrid1 .container1 .log1 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.home4 .servicedes .servicegrid1 .container2 .log2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.home4 .servicedes .servicegrid1 .container3 .log3 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.home4 .servicedes .servicegrid1 h1 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.home4 .servicedes .servicegrid1 p {
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+    padding: 5px;
+}
+
+.home4 .servicedes .servicegrid2 {
+
+    height: 400px;
+    width: 660px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home4 .servicedes .servicegrid2 .container4 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    float: left;
+}
+
+.home4 .servicedes .servicegrid2 .container5 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.home4 .servicedes .servicegrid2 .container6 {
+    width: 200px;
+    height: 400px;
+    background-color: gainsboro;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.home4 .servicedes .servicegrid2 h1 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.home4 .servicedes .servicegrid2 p {
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+    padding: 5px;
+}
+
+.home4 .servicedes .servicegrid2 .container4 .log4 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.home4 .servicedes .servicegrid2 .container5 .log5 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.home4 .servicedes .servicegrid2 .container6 .log6 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.home5 .homepics {
+    width: 67%;
+    height: 180%;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.home5 .homewritten {
+    width: 33%;
+    height: 180%;
+    background-color: #bb81f4;
+    display: inline-block;
+
+
+}
+
+
+.home5 {
+    height: 180%;
+    width: 100%;
+    float: right;
+    margin-top: 497px;
+}
+
+.home5 .homewritten h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 70%;
+
+
+}
+
+.home5 .homepics h1 {
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.home5 .homepics .home5logo {
+    height: 50px;
+    width: 50px;
+    background-color: darkmagenta;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home5 .homepics p {
+    font-size: 23px;
+    text-align: center;
+    color: dimgray;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.home5 .homepics .picscontainer {
+    width: 720px;
+    height: 1500px;
+    
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home5 .homepics .picscontainer .pic1 {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    float: left;
+}
+
+.home5 .homepics .picscontainer .pic2 {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.home5 .homepics .picscontainer .pic3 {
+    width: 720px;
+    height: 350px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.home5 .homepics .picscontainer .pic4 {
+    margin-top: 20px;
+    float: left;
+    height: 350px;
+    width: 350px;
+    background-color: black;
+
+}
+
+.home5 .homepics .picscontainer .pic5 {
+    margin-left: 20px;
+    height: 720px;
+    width: 350px;
+    background-color: black;
+    margin-top: 20px;
+    float:right;
+    
+
+
+
+
+}
+
+.home5 .homepics .picscontainer .pic6 {
+
+
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    margin-top: 20px;
+   
+   position: relative;
+    margin-top:390px;
+
+
+
+}
+
+.home6 {
+    height: 200%;
+    width: 100%;
+    background-color:whitesmoke;
+    float:right;
+    margin-top: 800px;
+}
+.home6 .home6logo{
+    height: 70px;
+    width: 70px;
+    background-color: darkcyan;
+    margin:auto;
+    margin-top:250px;
+}
+.home6 h1{
+    font-size: 50px;
+    color:black;
+    margin-left:300px;
+    padding:20px;
+    
+    
+}
+.home6 p{
+    font-size: 23px;
+    color:dimgray;
+    margin-left:300px;
+    
+}
+.home6 .textbox{
+    height:700px;
+    width:1100px;
+    margin:auto;
+    margin-top:40px;
+}
+
+.home6 .textbox .text1{
+    height:50px;
+    width:525px;
+    float:left;
+    background-color: brown;
+}
+.home6 .textbox .text2{
+    height:50px;
+    width:525px;
+    display: inline-block;
+    background-color: brown;
+    margin-left:50px;
+}
+.home6 .textbox .text3{
+    height:400px;
+    width:1100px;
+
+    background-color: brown;
+    margin-top:50px;
+}
+.home6 .textbox .text4{
+    height:50px;
+    width:1100px;
+
+    background-color: brown;
+    margin-top:50px;
+}
